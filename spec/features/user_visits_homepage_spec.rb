@@ -2,7 +2,7 @@
 require 'rails_helper'
 
 feature 'User visits homepage' do
-  scenario 'successfully' do
+  skip scenario 'successfully' do
     # You can use rails helpers. Equivallent to '/'
     visit root_path
 

@@ -2,7 +2,7 @@
 require 'rails_helper'
 
 feature 'User creates todo' do
-  scenario 'successfully' do
+  skip scenario 'successfully' do
     # First implement without sign_in
     # visit root_path
     sign_in

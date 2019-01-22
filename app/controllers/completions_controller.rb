@@ -12,6 +12,6 @@ class CompletionsController < ApplicationController
   private
 
   def todo
-    Todo.find(params[:todo_id])
+    current_user.todos.find(params[:todo_id])
   end
 end

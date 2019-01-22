@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 feature 'User completes todo' do
-  skip scenario 'successfully' do
+  scenario 'successfully' do
     sign_in
 
     create_todo('Todo content')

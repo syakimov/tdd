@@ -1,4 +1,3 @@
-# Spec 5
 require 'rails_helper'
 
 feature 'User marks todo incomplete' do

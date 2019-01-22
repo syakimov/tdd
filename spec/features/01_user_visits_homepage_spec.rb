@@ -1,4 +1,3 @@
-# Spec 1
 require 'rails_helper'
 
 feature 'User visits homepage' do

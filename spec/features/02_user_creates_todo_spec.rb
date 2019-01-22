@@ -1,4 +1,3 @@
-# Spec 2
 require 'rails_helper'
 
 feature 'User creates todo' do

@@ -1,4 +1,3 @@
-# Spec 3
 require 'rails_helper'
 
 feature 'User sess own todos' do
